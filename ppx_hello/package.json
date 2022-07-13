@@ -1,0 +1,15 @@
+{
+  "name": "ppx_hello",
+  "esy": {
+    "buildsInSource": "_build",
+    "build": "dune build -p #{self.name}"
+  },
+  "devDependencies": {
+    "ocaml": "4.14.0",
+    "@opam/reason": "3.8.1",
+    "@opam/dune": "3.2.0",
+    "@opam/ppxlib": "0.24.0",
+    "@opam/ocaml-lsp-server": "1.12.1",
+    "@opam/ocamlformat": "*"
+  }
+}

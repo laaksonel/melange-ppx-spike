@@ -1,0 +1,12 @@
+{
+    "name": "melange-basic-project",
+    "version": "0.0.1",
+    "sources": {
+      "dir" : "src"
+    },
+    "package-specs": {
+      "module": "commonjs"
+    },
+    "suffix": ".bs.js",
+    "ppx-flags": ["ppx_hello/_build/default/bin/ppx.exe"]
+  }
